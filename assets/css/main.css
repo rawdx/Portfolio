@@ -820,6 +820,11 @@ body {
     margin-bottom: 0
 }
 
+.intro--options ul {
+    padding: 0;
+    margin: 18px;
+}
+
 @media (max-width: 900px) {
     .intro--banner {
         height: 380px
