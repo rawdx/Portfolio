@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>My Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
+  <meta name="description" content="HTML5 portfolio">
   <meta name="author" content="Raúl Cordero">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
@@ -23,10 +23,10 @@
       <div class="l-wrapper">
         <header class="header">
           <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png">
+            <img src="assets/img/logo.png" width="25px" height="25px">
             <p>Raúl Cordero</p>
           </a>
-          <button class="header--cta cta">Hire</button>
+          <button class="header--cta cta">Hire me</button>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -44,7 +44,7 @@
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
-                <h1>Bringing<br>websites<br>to life</h1>
+                <h1>Bringing<br>websites<br>to life.</h1>
                 <button class="cta">Hire me
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -164,14 +164,14 @@
               <div class="contact--lockup">
                 <div class="modal">
                   <div class="modal--information">
-                    <p>Dirección</p>
-                    <a href="mailto:raulcorderodiaz1@gmail.com">mail@gmail.com</a>
-                    <a href="tel:+12345678">+12 34 567 89 01</a>
+                    <p>Seville, Spain</p>
+                    <a href="mailto:raulcorderodiaz@gmail.com">raulcorderodiaz@gmail.com</a>
+                    <a href="tel:+12345678">+34 688 988 050</a>
                   </div>
                   <ul class="modal--options">
                     <li><a href="https://github.com/rawdx" target="_blank">Github <i class="fab fa-github"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/raul-cordero-604531267" target="_blank">Linked<i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="mailto:raulcorderodiaz1@gmail.com">Contact Me</a></li>
+                    <li><a href="mailto:raulcorderodiaz@gmail.com">Contact Me</a></li>
                   </ul>
                 </div>
               </div>
@@ -180,11 +180,10 @@
           <li class="l-section section">
             <div class="hire">
               <h2>What do you want me to do?</h2>
-              <!-- checkout formspree.io for easy form setup -->
               <form class="work-request" action="https://formspree.io/f/xdovgbnd" method="POST">
                 <div class="work-request--options">
                   <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
+                    <input id="opt-1" type="checkbox" value="app design" name="app design">
                     <label for="opt-1">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -194,7 +193,7 @@
                       </svg>
                       App Design
                     </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <input id="opt-2" type="checkbox" value="graphic design" name="graphic design">
                     <label for="opt-2">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -204,7 +203,7 @@
                       </svg>
                       Graphic Design
                     </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
+                    <input id="opt-3" type="checkbox" value="motion design" name="motion design">
                     <label for="opt-3">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -216,7 +215,7 @@
                     </label>
                   </span>
                   <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
+                    <input id="opt-4" type="checkbox" value="ux design" name="ux design">
                     <label for="opt-4">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -226,7 +225,7 @@
                       </svg>
                       UX Design
                     </label>
-                    <input id="opt-5" type="checkbox" value="web design">
+                    <input id="opt-5" type="checkbox" value="web design" name="web design">
                     <label for="opt-5">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -236,7 +235,7 @@
                       </svg>
                       Web Design
                     </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
+                    <input id="opt-6" type="checkbox" value="marketing" name="marketing">
                     <label for="opt-6">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -250,11 +249,11 @@
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" type="text" spellcheck="false" name="name">
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" type="email" spellcheck="false" name="email">
                     <label for="email">Email</label>
                   </div>
                 </div>
@@ -271,7 +270,7 @@
     <li>Works</li>
     <li>About</li>
     <li>Contact</li>
-    <li>Hire</li>
+    <li>Hire me</li>
   </ul>
 </div>
 
@@ -279,4 +278,4 @@
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
 </body>
-</html>
+</html> -->

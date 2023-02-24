@@ -474,7 +474,7 @@ body {
 }
 
 .header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     display: -webkit-box;
@@ -491,7 +491,7 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    z-index: 10
+    z-index: 10;
 }
 
 .header--logo {
@@ -740,7 +740,7 @@ body {
     font-size: 68px;
     font-weight: 900;
     line-height: 1;
-    z-index: 1
+    z-index: 1;
 }
 
 .intro--banner button {
@@ -749,7 +749,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent;
-    border: none
+    border: none;
 }
 
 .intro--banner button .btn-background {
@@ -877,11 +877,12 @@ body {
 
 @media (max-width: 600px) {
     .intro--banner {
-        height: 360px
+        height: 100;
     }
 
     .intro--banner h1 {
-        font-size: 55px
+        font-size: 44px;
+        text-shadow: 2px 2px 5px black;
     }
 
     .intro--banner img {
