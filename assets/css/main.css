@@ -877,7 +877,7 @@ body {
 
 @media (max-width: 600px) {
     .intro--banner {
-        height: 100;
+        height: 360px;
     }
 
     .intro--banner h1 {
@@ -886,7 +886,7 @@ body {
     }
 
     .intro--banner img {
-        width: 250px
+        width: 280px;
     }
 }
 
