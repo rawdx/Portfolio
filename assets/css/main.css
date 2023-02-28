@@ -938,7 +938,7 @@ body {
 
 .work h2 {
     margin: 0 0 20px 0;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center
 }
 
@@ -1123,6 +1123,33 @@ body {
     }
 }
 
+.work--footer{
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.work--footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background-color: transparent
+}
+
+.work--footer a:hover svg{
+    left: 10px;
+}
+
+.work--footer svg{
+    position: relative;
+    left: 5px;
+    width: 15px;
+    fill: white;
+    transition: left .2s ease-in-out;
+}
+
+
 .about {
     position: relative;
     display: -webkit-box;
@@ -1242,7 +1269,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1254,8 +1281,8 @@ body {
 
 .about--options>a {
     position: relative;
-    width: 150px;
-    height: 75px;
+    width: 200px;
+    height: 100px;
     text-decoration: none;
     color: #fff;
     border: 10px solid #0f33ff;
@@ -1628,7 +1655,7 @@ body {
     position: relative;
     width: 45%;
     height: 50px;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300
 }
 
