@@ -5,7 +5,7 @@ function initParticles() {
                 "value": 280,
                 "density": {
                     "enable": true,
-                    "value_area": 1200
+                    "value_area": 1000
                 }
             },
             "color": {
@@ -27,22 +27,22 @@ function initParticles() {
                 }
             },
             "opacity": {
-                "value": 0.5,
+                "value": 0.6,
                 "random": true,
                 "anim": {
                     "enable": true,
                     "speed": 0.4,
-                    "opacity_min": 0.3,
+                    "opacity_min": 0.35,
                     "sync": false
                 }
             },
             "size": {
-                "value": 2.1,
+                "value": 2.2,
                 "random": true,
                 "anim": {
                     "enable": true,
                     "speed": 1,
-                    "size_min": 0.8,
+                    "size_min": 0.9,
                     "sync": false
                 }
             },
@@ -50,7 +50,7 @@ function initParticles() {
                 "enable": true,
                 "distance": 62,
                 "color": "#ffffff",
-                "opacity": 0.32,
+                "opacity": 0.35,
                 "width": 0.4
             },
             "move": {
@@ -111,12 +111,10 @@ function initParticles() {
     });
 }
 
-// llamada inicial a la función
 initParticles();
 
-var timer;
-
 // llamar la función en eventos de redimensionamiento y carga
+var timer;
 window.addEventListener('resize', function () {
     clearTimeout(timer);
     timer = setTimeout(initParticles, 60); //Tiempo de carga de particulas
