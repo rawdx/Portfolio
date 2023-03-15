@@ -2,7 +2,7 @@ function initParticles() {
     particlesJS("particles-js", {
         "particles": {
             "number": {
-                "value": 280,
+                "value": 200,
                 "density": {
                     "enable": true,
                     "value_area": 1000
@@ -50,12 +50,12 @@ function initParticles() {
                 "enable": true,
                 "distance": 62,
                 "color": "#ffffff",
-                "opacity": 0.35,
+                "opacity": 1,
                 "width": 0.4
             },
             "move": {
                 "enable": true,
-                "speed": 0.05,
+                "speed": 0.65,
                 "direction": "none",
                 "random": true,
                 "straight": false,
@@ -69,14 +69,14 @@ function initParticles() {
             }
         },
         "interactivity": {
-            "detect_on": "canvas",
+            "detect_on": "window",
             "events": {
                 "onhover": {
                     "enable": false,
                     "mode": "grab"
                 },
                 "onclick": {
-                    "enable": false,
+                    "enable": true,
                     "mode": "repulse"
                 },
                 "resize": true
